@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+#header {
+  height: 90px;
+}
+
+#details {
+  background-image: url("../assets/img/bg.png");
+}
+
+#details .banner {
+  height:140px;
+  
+  background-size: 100%;
+  background-image: url("../assets/img/header-banner.jpg");
+  background-position: center center;
+  padding: 20px 0;
+}
+
+#details .banner .project {
+  position: relative;
+  border-radius: 4px;
+  width: 1200px;
+  height: 100%;
+  padding: 6px 0 7px 24px;
+}
+
+#details .banner .project .line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 96px;
+  border: 1px solid #17c0eb;
+  background-color: #17c0eb;
+  border-radius: 4px;
+}
+
+#details .banner .project div {
+  color: #fff;
+  text-align: left;
+}
+
+#details .banner .project .cn-text {
+  height:41px;
+  font-size:32px;
+  font-weight:bold;
+  line-height: 41px;
+}
+
+#details .banner .project .en-text {
+  margin-top: 12px;
+  height:30px;
+  line-height: 30px;
+  font-size:24px;
+  font-weight:400;
+}
+
+/* #details .content {
+  min-height: 1024px;
+} */
+
+#details .content .current-position {
+  padding: 24px 0 16px;
+  font-size: 14px;
+  color: #999;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+#details .covid-symptoms {
+  padding: 91px 0 54px;
+}
+
+#details .covid-symptoms .title {
+  margin-bottom: 45px;
+}
+
+#details .covid-symptoms .title div {
+  text-align: center;
+  font-weight: 700;
+  line-height: 42px;
+  font-size: 35px;
+  color: #353c4c;
+}
+
+#details .covid-symptoms .title span {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  color: #6b6b6b;
+  font-style: italic;
+  text-align: center;
+}
+
+#details .covid-symptoms ul {
+  margin: 0 -20px;
+}
+
+#details .covid-symptoms li {
+  float: left;
+  width: 380px;
+  padding: 0 15px;
+  margin-bottom: 40px;
+}
+
+#details .covid-symptoms li .icon {
+  border: 2px dotted #333;
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#details .covid-symptoms li .icon i {
+  background: url("../assets/img/sprite-home-v3.png") no-repeat;
+  background-position: -21px -180px;
+  height: 60px;
+  width: 53px;
+  transition: all .3s ease;
+  display: block;
+  transform: scale(.9);
+  margin-bottom: 0;
+}
+
+#details .covid-symptoms li strong {
+  font-family: Poppins,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  display: block;
+  text-align: center;
+  padding-top: 13px;
+}
+
+#details .covid-symptoms li .desc {
+  margin-top: 8px;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+#details .covid-symptoms .item2 .icon i{
+  width: 40px;
+  background-position: -148px -180px;
+}
+
+#details .covid-symptoms .item3 .icon i{
+  width: 55px;
+  background-position: -262px -180px;
+}
+
+#details .covid-symptoms .item4 .icon i{
+  width: 60px;
+  background-position: -25px -275px;
+}
+
+#details .covid-symptoms .item5 .icon i{
+  width: 60px;
+  background-position: -143px -275px;
+}
+
+#details .covid-symptoms .item6 .icon i{
+  width: 60px;
+  background-position: -262px -275px;
+}
+/* hover相关样式 */
+#details .covid-symptoms li:hover {
+  transition: all .2s ease;
+}
+
+#details .covid-symptoms li:hover .icon {
+  background: linear-gradient(354deg,#e30058 0,#ff415b 100%);
+  border: 2px dotted #fff;
+  box-shadow: 0 7px 12px -1px rgba(195,195,195,.68);
+  
+}
+
+#details .covid-symptoms li:hover strong {
+  color: #f8315a;
+}
+
+
+#details .covid-symptoms li:hover .icon i {
+  background-position: -21px -371px;
+}
+
+#details .covid-symptoms .item2:hover .icon i {
+  background-position: -148px -371px;
+}
+
+#details .covid-symptoms .item3:hover .icon i {
+  background-position: -262px -371px;
+}
+
+#details .covid-symptoms .item4:hover .icon i {
+  background-position: -25px -466px;
+}
+
+#details .covid-symptoms .item5:hover .icon i {
+  background-position: -143px -466px;
+}
+
+#details .covid-symptoms .item6:hover .icon i {
+  background-position: -262px -466px;
+}

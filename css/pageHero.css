@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+#header {
+  height: 90px;
+}
+
+#main {
+  background-image: url("../assets/img/bg.png");
+}
+
+#main .banner {
+  height:140px;
+  
+  background-size: 100%;
+  background-image: url("../assets/img/header-banner.jpg");
+  background-position: center center;
+  padding: 20px 0;
+}
+
+#main .banner .project {
+  position: relative;
+  border-radius: 4px;
+  width: 1200px;
+  height: 100%;
+  padding: 6px 0 7px 24px;
+}
+
+#main .banner .project .line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 96px;
+  border: 1px solid #17c0eb;
+  background-color: #17c0eb;
+  border-radius: 4px;
+}
+
+#main .banner .project div {
+  color: #fff;
+  text-align: left;
+}
+
+#main .banner .project .cn-text {
+  height:41px;
+  font-size:32px;
+  font-weight:bold;
+  line-height: 41px;
+}
+
+#main .banner .project .en-text {
+  margin-top: 12px;
+  height:30px;
+  line-height: 30px;
+  font-size:24px;
+  font-weight:400;
+}
+
+#main .content {
+  min-height: 2048px;
+}
+
+#main .content .current-position {
+  padding: 24px 0 16px;
+  font-size: 14px;
+  color: #999;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+#main .content .category {
+  padding: 48px 0 34px 0;
+}
+
+#main .content .category-choices {
+  float: left;
+  margin-top: 6px;
+  /* width: 48px; */
+  height: 20px;
+  text-align: left;
+  margin-right: 14px;
+  color: #333333;
+  font-size: 16px;
+}
+
+#main .content .category-list {
+  margin-left: 14px;
+}
+
+#main .content .category-list li{
+  float: left;
+  width: 104px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #e5e5e5;
+  border-radius:2px;
+  color: #333333;
+  font-size: 16px;
+}
+
+#main .content .waterfall-flow img {
+  display: block;
+  width: 236px;
+}
+
+#main .content .waterfall-flow {
+margin-left: calc((100% - 1100px) / 2);
+}
+
+#main .content .waterfall-flow .item {
+  position: absolute;
+  border-radius: 2px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+#main .content .waterfall-flow .item .describe{
+  position: absolute;
+  /* display: none; */
+  opacity: 0;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 5px 1px;
+  color: #fff;
+  background-color: rgba(0,0,0,.5);
+}
+
+#main .content .waterfall-flow .item:hover .describe {
+  /* display: block; */
+  opacity: 1;
+  transition: all 1s;
+}
+
+/* js修改相关的样式 */
+#main .content .category-list .active {
+  color: #fff;
+  background-color: #17c0eb;
+}
+
+#main .content .waterfall-flow {
+  display: none;
+}
+
+#main .content .show{
+  display: block;
+}
