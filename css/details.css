@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  position: relative;
 }
 
 #header {
@@ -214,4 +213,180 @@
 
 #details .covid-symptoms .item6:hover .icon i {
   background-position: -262px -466px;
+}
+
+#project {
+  padding: 90px 0 100px;
+  background-image: url("../assets/img/protect-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#project .title div{
+  font-family: Poppins,sans-serif;
+  font-size: 35px;
+  color: #353c4c;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  line-height: 34px;
+}
+
+#project .title span {
+  font-size: 14px;
+  font-family: 'Open Sans',sans-serif;
+  color: #333;
+  display: block;
+  width: 70%;
+  font-style: italic;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 120px;
+  margin: auto;
+}
+
+#project .p-left,
+#project .p-right {
+  float: left;
+}
+
+#project ul {
+  width: 100%;
+}
+
+#project li {
+  width: 100%;
+  height: 119px;
+  margin-bottom: 47px;
+}
+
+#project .p-left {
+  width: 40%;
+}
+
+#project .p-right {
+  margin-left: 20%;
+  width: 40%;
+}
+
+#project .content .text {
+  width: calc(100% - 150px);
+}
+
+#project .content .item div {
+  color: #434343;
+  display: inline-block;
+  line-height: 26px;
+  text-align: right;
+}
+
+#project .content .item .text {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+#project .content .item .text span {
+  color: #353c4c;
+  display: block;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 19px;
+  font-weight: 600;
+  transition: all .2s ease;
+  font-family: Poppins,sans-serif;
+  text-align: right
+}
+
+#project .content .item .protection-icon {
+  background-color: #fff;
+  border: 1px solid #353c4c;
+  border-radius: 50%;
+  box-shadow: 0 0 17px -11px rgba(0,0,0,.7);
+  display: inline-block;
+  margin-left: 27px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  vertical-align: top;
+  transition: all .2s ease;
+}
+
+#project .content .item .protection-icon i {
+  background: url("../assets/img/sprite-home-v3.png") no-repeat;
+  height: 50px;
+  width: 45px;
+  transition: all .2s ease;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-position: -9px -13px;
+  width: 45px;
+  height: 46px;
+}
+
+#project .content .p-right .protection-icon {
+  margin-right: 27px;
+}
+
+#project .content .l-item2 .protection-icon i {
+  background-position: -73px -13px;
+}
+
+#project .content .l-item3 .protection-icon i {
+  background-position: -139px -14px;
+}
+
+#project .content .r-item1 .protection-icon i {
+  width: 38px;
+  background-position: -204px -10px;
+}
+
+#project .content .r-item2 .protection-icon i {
+  background-position: -262px -13px;
+}
+
+#project .content .r-item3 .protection-icon i {
+  width: 38px;
+  background-position: -327px -11px;
+}
+
+#project .content .item:hover .text span {
+  color: #f8315a
+} 
+
+#project .content .l-item1:hover .protection-icon i {
+  background-position: -9px -94px;
+}
+
+#project .content .l-item2:hover .protection-icon i {
+  background-position: -74px -94px;
+}
+
+#project .content .l-item3:hover .protection-icon i {
+  background-position: -139px -95px;
+}
+
+#project .content .r-item1:hover .protection-icon i {
+  background-position: -204px -91px;
+}
+
+#project .content .r-item2:hover .protection-icon i {
+  background-position: -262px -94px;
+}
+
+#project .content .r-item3:hover .protection-icon i {
+  background-position: -327px -93px;
+}
+
+#project .content .item:hover .protection-icon {
+  border-color: #fff;
+  background: linear-gradient(354deg,#e30058 0,#ff415b 100%);
+}
+
+#project .content .p-right .item .text span,
+#project .content .p-right .item .text {
+  text-align: left;
 }

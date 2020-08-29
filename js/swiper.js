@@ -71,7 +71,6 @@ window.onload = function(){
   var imgArr = document.getElementsByClassName("swiper_img");
   for (let i = 0; i < imgArr.length; i++) {
     imgArr[i].style.width = width + "px"
-    console.log(imgArr[i].style.width);
     
   }
   //设置imgList的宽度
